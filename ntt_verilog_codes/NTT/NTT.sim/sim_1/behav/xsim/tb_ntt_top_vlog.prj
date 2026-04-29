@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../addr_gen.v" \
+"../../../../../butterfly_dual.v" \
+"../../../../../coeff_mem.v" \
+"../../../../../mod_add.v" \
+"../../../../../mod_mult_red.v" \
+"../../../../../mod_sub.v" \
+"../../../../../ntt_controller.v" \
+"../../../../../ntt_top.v" \
+"../../../../../twiddle_mem_dual.v" \
+"../../../../../writeback_mux.v" \
+"../../../../../tb_ntt_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

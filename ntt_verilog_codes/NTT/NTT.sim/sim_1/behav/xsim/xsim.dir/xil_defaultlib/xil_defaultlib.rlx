@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/addr_gen.v,1777231532,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/butterfly_dual.v,,addr_gen,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/butterfly_dual.v,1777416237,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/coeff_mem.v,,butterfly_core,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/coeff_mem.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_add.v,,coeff_mem,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_add.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_mult_red.v,,mod_add,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_mult_red.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_sub.v,,mod_mult_red,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_sub.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/ntt_controller.v,,mod_sub,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/ntt_controller.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/ntt_top.v,,ntt_controller,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/ntt_top.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/twiddle_mem_dual.v,,ntt_top,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/tb_ntt_top.v,1777232635,verilog,,,,tb_ntt_top,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/tb_ntt_top_new.v,1777415323,verilog,,,,tb_ntt_top_new,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/twiddle_mem_dual.v,1777416012,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/writeback_mux.v,,twiddle_mem,,,,,,,,
+D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/writeback_mux.v,1777193613,verilog,,D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/tb_ntt_top_new.v,,writeback_mux,,,,,,,,

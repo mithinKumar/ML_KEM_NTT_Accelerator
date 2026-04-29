@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="pynq_mlkem_mmio_0_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_mlkem_mmio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_ntt_top_0_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_ntt_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_ntt_dma_translator_0_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_ntt_dma_translator_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_ntt_ctrl_parser_0_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_ntt_ctrl_parser_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_auto_us_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_auto_us_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_axi_dma_0_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_axi_dma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_processing_system7_0_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_auto_pc_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_rst_ps7_0_100M_1_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_rst_ps7_0_100M_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_auto_pc_1_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_xbar_0_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_xbar_1_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_auto_us_1_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_auto_us_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="pynq_system_ila_0_1_synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/pynq_system_ila_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="pynq_mlkem_mmio_0_0_synth_1"/>
+		<Parent Id="pynq_ntt_top_0_0_synth_1"/>
+		<Parent Id="pynq_ntt_dma_translator_0_0_synth_1"/>
+		<Parent Id="pynq_ntt_ctrl_parser_0_0_synth_1"/>
+		<Parent Id="pynq_auto_us_0_synth_1"/>
+		<Parent Id="pynq_axi_dma_0_0_synth_1"/>
+		<Parent Id="pynq_processing_system7_0_0_synth_1"/>
+		<Parent Id="pynq_auto_pc_0_synth_1"/>
+		<Parent Id="pynq_rst_ps7_0_100M_1_synth_1"/>
+		<Parent Id="pynq_auto_pc_1_synth_1"/>
+		<Parent Id="pynq_xbar_0_synth_1"/>
+		<Parent Id="pynq_xbar_1_synth_1"/>
+		<Parent Id="pynq_auto_us_1_synth_1"/>
+		<Parent Id="pynq_system_ila_0_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

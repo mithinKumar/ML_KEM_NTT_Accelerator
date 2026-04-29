@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+==================================================
+       STARTING NEW NTT ACCELERATOR VERIFICATION  
+==================================================
+Running Test Case 1...
+[PASS] Test Case 1 completed successfully.
+Running Test Case 2...
+[PASS] Test Case 2 completed successfully.
+Running Test Case 3...
+[PASS] Test Case 3 completed successfully.
+==================================================
+VERIFICATION COMPLETE: 3 / 3 TESTS PASSED
+==================================================
+ALL CLEAR - RTL matches Golden Model.
+$finish called at time : 107955 ns : File "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/tb_ntt_top_new.v" Line 170

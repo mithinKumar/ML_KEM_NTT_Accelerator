@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/addr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/butterfly_dual.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/coeff_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coeff_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_mult_red.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_mult_red
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/mod_sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/ntt_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ntt_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/ntt_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ntt_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/twiddle_mem_dual.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twiddle_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/writeback_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/tb_ntt_top_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ntt_top_new

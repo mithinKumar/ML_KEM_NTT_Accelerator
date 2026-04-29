@@ -1,0 +1,70 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:false|/processing_system7_0_FCLK_RESET0_N:false|/processing_system7_0_FCLK_CLK0:false|",
+   "Addressing View_ScaleFactor":"0.996193",
+   "Addressing View_TopLeft":"0,-210",
+   "Color Coded_Layers":"/rst_ps7_0_100M_peripheral_aresetn:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK0:true|",
+   "Color Coded_ScaleFactor":"0.545897",
+   "Color Coded_TopLeft":"0,-191",
+   "Default View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK0:true|",
+   "Default View_ScaleFactor":"0.562079",
+   "Default View_TopLeft":"925,240",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/rst_ps7_0_100M_peripheral_aresetn:false|/processing_system7_0_FCLK_RESET0_N:false|/processing_system7_0_FCLK_CLK0:false|",
+   "Interfaces View_ScaleFactor":"1.08575",
+   "Interfaces View_TopLeft":"0,-180",
+   "Reduced Jogs_ScaleFactor":"0.586697",
+   "Reduced Jogs_TopLeft":"0,-39",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 8 -x 2720 -y 380 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 8 -x 2720 -y 410 -defaultsOSRD
+preplace inst mlkem_mmio_0 -pg 1 -lvl 5 -x 1760 -y 150 -defaultsOSRD
+preplace inst ntt_ctrl_parser_0 -pg 1 -lvl 4 -x 1330 -y 150 -defaultsOSRD
+preplace inst ntt_top_0 -pg 1 -lvl 3 -x 890 -y 370 -defaultsOSRD
+preplace inst ntt_dma_translator_0 -pg 1 -lvl 4 -x 1330 -y 410 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 2460 -y 440 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -x 1760 -y 400 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1330 -y 740 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 690 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 6 -x 2110 -y 430 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1330 -y 930 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 510 -y 650 -defaultsOSRD
+preplace netloc mlkem_mmio_0_slv_reg4_out 1 3 3 1130 540 NJ 540 1930
+preplace netloc mlkem_mmio_0_slv_reg5_out 1 3 3 1140 550 NJ 550 1920
+preplace netloc ntt_top_0_done 1 3 1 1080 170n
+preplace netloc ntt_ctrl_parser_0_mode 1 2 3 670 30 NJ 30 1550
+preplace netloc ntt_ctrl_parser_0_start 1 2 3 700 40 NJ 40 1540
+preplace netloc ntt_ctrl_parser_0_usr_reg6_in 1 4 1 1580 130n
+preplace netloc ntt_top_0_ext_coeff_rdata 1 3 1 1100 350n
+preplace netloc ntt_dma_translator_0_ext_coeff_waddr 1 2 3 680 60 NJ 60 1530
+preplace netloc ntt_dma_translator_0_ext_coeff_wdata 1 2 3 690 70 NJ 70 1520
+preplace netloc ntt_dma_translator_0_ext_coeff_we 1 2 3 710 230 NJ 230 1510
+preplace netloc ntt_dma_translator_0_ext_coeff_raddr 1 2 3 660 50 NJ 50 1560
+preplace netloc busy 1 3 1 1070 370n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 8 30 300 NJ 300 650 240 1090 240 1590 520 1960 280 2250 330 2670
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 8 20 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 2690
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 5 370 710 NJ 710 1110 310 1600 530 1970
+preplace netloc util_vector_logic_0_Res 1 2 1 650 320n
+preplace netloc processing_system7_0_DDR 1 7 1 2700J 380n
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ 410
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 5 1150 280 NJ 280 1950J 270 NJ 270 2680
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 1580 350n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 1 1570 120n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 5 1 N 340
+preplace netloc axi_mem_intercon_M00_AXI 1 6 1 N 430
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 N 360
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 3 1120 10 NJ 10 1940
+preplace netloc ntt_dma_translator_0_m_axis 1 4 1 N 370
+levelinfo -pg 1 0 200 510 890 1330 1760 2110 2460 2720
+pagesize -pg 1 -db -bbox -sgen 0 0 2830 1000
+"
+}
+{
+   "da_axi4_cnt":"6",
+   "da_clkrst_cnt":"3",
+   "da_ps7_cnt":"3"
+}

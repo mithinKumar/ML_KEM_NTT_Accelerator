@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER mlkem_mmio
+	OPTION supported_peripherals = (mlkem_mmio);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = mlkem_mmio;
+END DRIVER

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 30 00:15:42 2026
+# Process ID: 16512
+# Current directory: D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/impl_1
+# Command line: vivado.exe -log pynq_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pynq_wrapper.tcl -notrace
+# Log file: D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/impl_1/pynq_wrapper.vdi
+# Journal file: D:/download/downloads/embedded_sys_project/vivado/ntt_verilog_codes/NTT/NTT.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pynq_wrapper.tcl -notrace
