@@ -1,0 +1,19 @@
+from abc import abstractmethod
+from typing import Protocol
+from typing_extensions import Self
+
+
+# the entries of a matrix must have a type supporting add, subtract and multiplication over a field
+# define that interface via this protocol
+class Field(Protocol):
+    @abstractmethod
+    def __add__(self, other: Self) -> Self:
+        pass
+
+    @abstractmethod
+    def __sub__(self, other: Self) -> Self:
+        pass
+
+    @abstractmethod
+    def __mul__(self, other: Self) -> Self:
+        pass
